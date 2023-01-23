@@ -4,6 +4,15 @@
 
 /* header*/
 
+header{
+  display:flex;
+}
+
+header img{
+  height: 100px;
+}
+
+
 nav {
   display: flex;
   flex-wrap: wrap;
