@@ -1,1 +1,26 @@
-/* use this file to style your homepage */
+
+
+
+
+/* header*/
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  top: 0;
+  
+  margin-top:10px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.profile img {
+  width: 100px;
+  height: 150px;
+  
+
+}
