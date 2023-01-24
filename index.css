@@ -1,9 +1,8 @@
 /*--------------------------------------------------------------------------------Dylan Header et HERO --------*/
-
-
-
+body
 header{
   display:flex;
+  border-bottom: 3px solid #EF7B27;
 }
 header img{
   max-height: 80px;
@@ -28,7 +27,9 @@ nav {
   height: 150px;
 }
 .profile h1 {
-  margin-left: 10px;
+  margin-left: -13px;
+  font-weight: bold;
+  color:rgb(50,50,50,1);
   margin-top:10px;
   font-size: 15px;
 }
