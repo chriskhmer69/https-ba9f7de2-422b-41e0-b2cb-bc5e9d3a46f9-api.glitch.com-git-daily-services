@@ -62,8 +62,9 @@ ul {
 }
 #hero{
   height:80vh;
-  background-image:url("https://cdn.glitch.global/5575e1a1-f657-4263-85c0-d633ac39a201/7fcb33bf-fe00-4163-8d2d-29fc7aaeb940.image.png?v=1674554116661") !important;
+  background-image:url("https://cdn.glitch.global/5575e1a1-f657-4263-85c0-d633ac39a201/elaine-casap-qgHGDbbSNm8-unsplash.jpg?v=1674571477149") !important;
   background-repeat:no-repeat;
+  background-position: bottom left;
   background-size:cover;
 }
 #hero .text-hero{
@@ -83,6 +84,10 @@ ul {
   text-align:center;
   margin-bottom:10px;
 }
+
+/*--------------------------------------------------------------------------------Dylan Header et HERO --------*/
+
+/*------------------------CSS SECTION ALEXANDRE-----------------------*/
 #number{
   height:100vh;
   background-color:#F6E0A7;
@@ -96,9 +101,7 @@ ul {
   padding:5px;
 }
 
-/*--------------------------------------------------------------------------------Dylan Header et HERO --------*/
-
-/*------------------------CSS SECTION ALEXANDRE-----------------------*/
+.imgPoucentage
 
 
 /*------------------------ THE END CSS SECTION ALEXANDRE-----------------------*/
