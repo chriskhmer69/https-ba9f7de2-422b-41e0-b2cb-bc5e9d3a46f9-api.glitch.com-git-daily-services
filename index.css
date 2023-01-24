@@ -48,11 +48,18 @@ ul {
 }
 #hero .text-hero{
    color:#EF7B27;
+  background-color:rgb(255,255,255,0.7);
+  padding:20px;
+  border-radius:10px;
   float:right;
   margin-right:40px;
   margin-top:40px;
   text-align:right;
   font-size:1.2em;
+}
+.text-hero a{
+  display:block;
+  text-align:center;
 }
 #number{
   height:100vh;
