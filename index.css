@@ -50,9 +50,11 @@ ul {
   background-repeat:no-repeat;
   background-size:cover;
 }
-#hero h1{
+#hero .text-hero{
    color:#EF7B27;
   float:right;
+  margin-right:40px;
+  margin-top:40px;
   text-align:center;
 text-shadow: -1px 0 white, 0 1px white,
       1px 0 white, 0 -1px white
