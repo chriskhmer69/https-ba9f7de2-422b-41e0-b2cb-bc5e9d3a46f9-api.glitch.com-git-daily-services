@@ -1,13 +1,10 @@
 header{
   display:flex;
 }
-
 header img{
 max-height: 80px;
 max-width: 80px;
 }
-
-
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -15,8 +12,7 @@ nav {
   align-items: center;
   background-color: white;
   margin: 5px;
-
-  margin-top:10px;
+  margin-top:15px;
 }
 .profile {
   display: flex;
