@@ -70,7 +70,7 @@ ul {
   color:#EF7B27;
   background-color:rgb(255,255,255,0.8);
   box-shadow:0px 2px 5px rgb(0,0,0,.5);
-  padding:20px;
+  padding:10px 40px;
   border-radius:10px;
   float:right;
   margin-right:40px;
@@ -81,6 +81,7 @@ ul {
 .text-hero a{
   display:block;
   text-align:center;
+  margin-bottom:10px;
 }
 #number{
   height:100vh;
@@ -94,7 +95,6 @@ ul {
   margin:5px;
   padding:5px;
 }
-
 
 /*--------------------------------------------------------------------------------Dylan Header et HERO --------*/
 
