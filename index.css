@@ -91,16 +91,19 @@ ul {
 #number{
   height:100vh;
   background-color:#F6E0A7;
+  
+  margin-top: 5%;
+  border-radius: 30px;
+  padding-top: 4%;
+  padding-left: 3%;
 }
-#number article{
-  color:black;
-  background:white;
-  border:1px solid black;
-  border-radius:5px;
-  margin:5px;
-  padding:5px;
 }
 
+.voiture{
+  background-color:
+  
+  
+}
 .imgPoucentage{
   
   
@@ -120,7 +123,8 @@ ul.slider {
   margin:0 auto;
   height:200px;
   width:90%;
-  overflow:hidden;                  
+  overflow:hidden; 
+  
 }
 
 .slider li {
@@ -142,8 +146,15 @@ ul.slider {
   width:50%;                      
 }
 .slider img{
-  width: 100px;
-  height: 50px;
+  width: 300px;
+  height: 200px;
+}
+figure {
+  display:flex;
+}
+.items img{
+  width:50px;
+  height:30px;
 }
 
 
