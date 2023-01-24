@@ -51,21 +51,20 @@ ul {
 .ulNav{
   display: flex; 
   justify-content: space-around;
-  margin-left: 800px;
+  margin-left: 700px;
   margin-top:15px;
   text-indent:10px;
 }
-<
 #hero{
-  width:100%;
-  height:100vh;
-  background-image:url("https://cdn.glitch.global/e86ce8a5-74d8-46de-965f-fc2da042bcc3/coffee_background.png?v=1667226254118") !important;
+  height:80vh;
+  background-image:url("https://cdn.glitch.global/5575e1a1-f657-4263-85c0-d633ac39a201/7fcb33bf-fe00-4163-8d2d-29fc7aaeb940.image.png?v=1674554116661") !important;
   background-repeat:no-repeat;
   background-size:cover;
 }
 #hero .text-hero{
   color:#EF7B27;
-  background-color:rgb(255,255,255,0.7);
+  background-color:rgb(255,255,255,0.8);
+  box-shadow:0px 2px 5px rgb(0,0,0,.5);
   padding:20px;
   border-radius:10px;
   float:right;
