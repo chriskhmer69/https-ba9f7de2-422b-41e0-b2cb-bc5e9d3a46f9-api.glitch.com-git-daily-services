@@ -60,3 +60,9 @@ ul {
 .ulNav li{
   float:right;
   margin:10px;
+}
+  
+  .retour href{
+scroll-behavior:smooth;
+    
+  }

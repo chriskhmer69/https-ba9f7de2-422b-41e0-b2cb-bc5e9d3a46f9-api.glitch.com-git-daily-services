@@ -1,12 +1,12 @@
 /*--------------------------------------------------------------------------------Dylan Header et HERO --------*/
-header{
-  display:flex;
-  border-bottom: 3px solid #EF7B27;
+header {
+  display: flex;
+  border-bottom: 3px solid #ef7b27;
 }
-header img{
+header img {
   max-height: 80px;
   max-width: 80px;
-  margin:5px;
+  margin: 5px;
 }
 nav {
   display: flex;
@@ -15,7 +15,7 @@ nav {
   align-items: center;
   background-color: white;
   margin: 5px;
-  margin-top:15px;
+  margin-top: 15px;
 }
 .profile {
   display: flex;
@@ -28,153 +28,139 @@ nav {
 .profile h1 {
   margin-left: -13px;
   font-weight: bold;
-  color:rgb(50,50,50,1);
-  margin-top:10px;
+  color: rgb(50, 50, 50, 1);
+  margin-top: 10px;
   font-size: 15px;
 }
-a{
-  color:white;
-  background-color:#EF7B27;
+a {
+  color: white;
+  background-color: #ef7b27;
   padding: 10px 25px;
-  border-radius:30px;
-  text-decoration : none;
-  box-shadow:0px 2px 5px rgb(0,0,0,.5);
+  border-radius: 30px;
+  text-decoration: none;
+  box-shadow: 0px 2px 5px rgb(0, 0, 0, 0.5);
 }
-a:hover{
-  color:white;
-  box-shadow:inset 0px 2px 5px rgb(0,0,0,.5);
+a:hover {
+  color: white;
+  box-shadow: inset 0px 2px 5px rgb(0, 0, 0, 0.5);
 }
 
 ul {
   display: flex;
   list-style: none;
-
 }
-.ulNav{
-  display: flex; 
+.ulNav {
+  display: flex;
   justify-content: space-around;
   margin-left: 700px;
-  margin-top:15px;
+  margin-top: 15px;
 }
-.ulNav li{
-  float:right;
-  margin:10px;
+.ulNav li {
+  float: right;
+  margin: 10px;
 }
-#hero{
-  height:80vh;
-  background-image:url("https://cdn.glitch.global/5575e1a1-f657-4263-85c0-d633ac39a201/elaine-casap-qgHGDbbSNm8-unsplash.jpg?v=1674571477149") !important;
-  background-repeat:no-repeat;
+#hero {
+  height: 80vh;
+  background-image: url("https://cdn.glitch.global/5575e1a1-f657-4263-85c0-d633ac39a201/elaine-casap-qgHGDbbSNm8-unsplash.jpg?v=1674571477149") !important;
+  background-repeat: no-repeat;
   background-position: center;
-  background-size:cover;
+  background-size: cover;
 }
-#hero .text-hero{
-  color:#EF7B27;
-  background-color:rgb(255,255,255,0.8);
-  box-shadow:0px 2px 5px rgb(0,0,0,.5);
-  padding:10px 40px;
-  border-radius:10px;
-  float:right;
-  margin-right:40px;
-  margin-top:60px;
-  text-align:right;
-  font-size:1.2em;
+#hero .text-hero {
+  color: #ef7b27;
+  background-color: rgb(255, 255, 255, 0.8);
+  box-shadow: 0px 2px 5px rgb(0, 0, 0, 0.5);
+  padding: 10px 40px;
+  border-radius: 10px;
+  float: right;
+  margin-right: 40px;
+  margin-top: 60px;
+  text-align: right;
+  font-size: 1.2em;
 }
-.text-hero a{
-  display:block;
-  text-align:center;
-  margin-bottom:10px;
+.text-hero a {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+footer {
+  padding: 10px 40px;
+
+  background: #ef7b27;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------------------------Dylan Header et HERO --------*/
 
 /*------------------------CSS SECTION ALEXANDRE-----------------------*/
-#number{
-  height:100vh;
-  background-color:#F6E0A7;
+#number {
+  height: 1000;
+  background-color: #f6e0a7;
   margin-top: 5%;
   border-radius: 30px;
   padding-top: 4%;
   padding-left: 3%;
 }
 
-
-.voiture{
-  background-color:
-  
-  
+.voiture {
+  background-color: #8dc63e;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 3px;
+  height: 300px;
 }
-.imgPoucentage{
-  
-  
+.imgPoucentage {
 }
-
 
 /*------------------------ THE END CSS SECTION ALEXANDRE-----------------------*/
-
-
-
 
 /*----------------------------------------------------------------------------------------Hans--------*/
 
 ul.slider {
-  list-style:none;                 
-  padding:0;
-  margin:0 auto;
-  height:200px;
-  width:80%;
-  overflow:hidden; 
-  
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  height: 200px;
+  width: 80%;
+  overflow: hidden;
 }
 
 .slider li {
-  margin-bottom:0!important;
-  float:left;                       
-  white-space:nowrap;              
-  width:25%;                   
-  height:100%;             
-  transition: width .5s ease 0.1s;  
+  margin-bottom: 0 !important;
+  float: left;
+  white-space: nowrap;
+  width: 25%;
+  height: 100%;
+  transition: width 0.5s ease 0.1s;
 }
-.slider li.item_actif  {
-  width:50%;         
-  margin:0 auto;
+.slider li.item_actif {
+  width: 50%;
+  margin: 0 auto;
 }
-.slider:hover li {                
-  width:25%;                        
+.slider:hover li {
+  width: 25%;
 }
 .slider li:hover {
-  width:50%;                      
+  width: 50%;
 }
-.slider img{
+.slider img {
   width: 350px;
   height: 200px;
 }
 figure {
-  display:flex;
+  display: flex;
 }
-.items img{
-  width:50px;
-  height:30px;
+.items img {
+  width: 50px;
+  height: 30px;
 }
-
 
 /*----------------------------------------------------------------------------------------Hans--------*/
 
-
-
-
-
-
 /*-------------------------------------------------------------------------------------Avis Utilisateur--------*/
 
-
 /*-------------------------------------------------------------------------------------Avis Utilisateur--------*/
-
-
-
-
-
 
 /*-------------------------------------------------------------------------------------Footer--------*/
-
 
 /*-------------------------------------------------------------------------------------AFooter--------*/
