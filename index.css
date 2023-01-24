@@ -49,6 +49,13 @@ ul {
   border:2px black solid;
   height:100vh;
 }
+.number{
+  height:100vh;
+  border:1px silver solid;
+}
 .img-hero{
   width:100%;
+}
+.hero h1{
+  color:white;
 }
