@@ -6,8 +6,9 @@ header{
   display:flex;
 }
 header img{
-max-height: 80px;
-max-width: 80px;
+  max-height: 80px;
+  max-width: 80px;
+  margin:5px;
 }
 nav {
   display: flex;
@@ -28,6 +29,7 @@ nav {
 }
 .profile h1 {
   margin-left: 10px;
+  margin-top:10px;
   font-size: 15px;
 }
 a{
@@ -53,7 +55,10 @@ ul {
   justify-content: space-around;
   margin-left: 700px;
   margin-top:15px;
-  text-indent:10px;
+}
+.ulNav li{
+  float:right;
+  margin:10px;
 }
 #hero{
   height:80vh;
@@ -103,7 +108,32 @@ ul {
 
 /*----------------------------------------------------------------------------------------Hans--------*/
 
+ul.slider {
+  list-style:none;                 
+  padding:0;
+  margin:0 auto;
+  height:9.25em;
+  width:50em;
+  overflow:hidden;                  
+  border:1px solid black;
+}
 
+.slider li {
+  float:left;                       
+  white-space:nowrap;              
+  width:25%;                   
+  height:100%;             
+  transition: width .5s ease 0.1s;  
+}
+.slider li.item_actif  {
+  width:50%;                      
+}
+.slider:hover li {                
+  width:25%;                        
+}
+.slider li:hover {
+  width:50%;                      
+}
 
 
 /*----------------------------------------------------------------------------------------Hans--------*/
