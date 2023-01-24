@@ -1,13 +1,13 @@
 /*----------------------------------------------------------------------Copier commentaire pour sectionner--------*/
 
-header{
-  display:flex;
-  border-bottom: 3px solid #EF7B27;
+header {
+  display: flex;
+  border-bottom: 3px solid #ef7b27;
 }
-header img{
+header img {
   max-height: 80px;
   max-width: 80px;
-  margin:5px;
+  margin: 5px;
 }
 nav {
   display: flex;
@@ -16,7 +16,7 @@ nav {
   align-items: center;
   background-color: white;
   margin: 5px;
-  margin-top:15px;
+  margin-top: 15px;
 }
 .profile {
   display: flex;
@@ -29,40 +29,38 @@ nav {
 .profile h1 {
   margin-left: -13px;
   font-weight: bold;
-  color:rgb(50,50,50,1);
-  margin-top:10px;
+  color: rgb(50, 50, 50, 1);
+  margin-top: 10px;
   font-size: 15px;
 }
-a{
-  color:white;
-  background-color:#EF7B27;
+a {
+  color: white;
+  background-color: #ef7b27;
   padding: 10px 25px;
-  border-radius:30px;
-  text-decoration : none;
-  box-shadow:0px 2px 5px rgb(0,0,0,.5);
+  border-radius: 30px;
+  text-decoration: none;
+  box-shadow: 0px 2px 5px rgb(0, 0, 0, 0.5);
 }
-a:hover{
-  color:white;
-  box-shadow:inset 0px 2px 5px rgb(0,0,0,.5);
+a:hover {
+  color: white;
+  box-shadow: inset 0px 2px 5px rgb(0, 0, 0, 0.5);
 }
 
 ul {
   display: flex;
   list-style: none;
-
 }
-.ulNav{
-  display: flex; 
+.ulNav {
+  display: flex;
   justify-content: space-around;
   margin-left: 700px;
-  margin-top:15px;
+  margin-top: 15px;
 }
-.ulNav li{
-  float:right;
-  margin:10px;
+.ulNav li {
+  float: right;
+  margin: 10px;
 }
-  
-  .retour href{
-scroll-behavior:smooth;
-    
-  }
+
+.retour href {
+  scroll-behavior: smooth;
+}
