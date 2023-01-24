@@ -40,6 +40,9 @@ ul {
   margin-top:15px;
   text-indent:10px;
 }
+section{
+  border:2px solid red;
+}
 #hero{
   height:80vh;
   background-image:url("https://cdn.glitch.global/5575e1a1-f657-4263-85c0-d633ac39a201/7fcb33bf-fe00-4163-8d2d-29fc7aaeb940.image.png?v=1674554116661");
