@@ -64,7 +64,7 @@ ul {
   height:80vh;
   background-image:url("https://cdn.glitch.global/5575e1a1-f657-4263-85c0-d633ac39a201/elaine-casap-qgHGDbbSNm8-unsplash.jpg?v=1674571477149") !important;
   background-repeat:no-repeat;
-  background-position: bottom left;
+  background-position: center;
   background-size:cover;
 }
 #hero .text-hero{
@@ -101,7 +101,10 @@ ul {
   padding:5px;
 }
 
-.imgPoucentage
+.imgPoucentage{
+  
+  
+}
 
 
 /*------------------------ THE END CSS SECTION ALEXANDRE-----------------------*/
@@ -115,13 +118,14 @@ ul.slider {
   list-style:none;                 
   padding:0;
   margin:0 auto;
-  height:9.25em;
-  width:50em;
+  height:200px;
+  width:90%;
   overflow:hidden;                  
-  border:1px solid black;
+  
 }
 
 .slider li {
+  margin-bottom:0!important;
   float:left;                       
   white-space:nowrap;              
   width:25%;                   
@@ -129,13 +133,18 @@ ul.slider {
   transition: width .5s ease 0.1s;  
 }
 .slider li.item_actif  {
-  width:50%;                      
+  width:50%;         
+  margin:0 auto;
 }
 .slider:hover li {                
   width:25%;                        
 }
 .slider li:hover {
   width:50%;                      
+}
+.slider img{
+  width: 300px;
+  height: 200px;
 }
 
 
