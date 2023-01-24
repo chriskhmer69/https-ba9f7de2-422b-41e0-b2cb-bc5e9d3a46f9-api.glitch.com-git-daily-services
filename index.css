@@ -40,9 +40,6 @@ ul {
   margin-top:15px;
   text-indent:10px;
 }
-section{
-  border:2px solid red;
-}
 #hero{
   height:80vh;
   background-image:url("https://cdn.glitch.global/5575e1a1-f657-4263-85c0-d633ac39a201/7fcb33bf-fe00-4163-8d2d-29fc7aaeb940.image.png?v=1674554116661");
@@ -56,8 +53,6 @@ section{
   margin-top:40px;
   text-align:right;
   font-size:1.2em;
-text-shadow: -1px 0 white, 0 1px white,
-      1px 0 white, 0 -1px white
 }
 #number{
   height:100vh;
@@ -74,12 +69,12 @@ text-shadow: -1px 0 white, 0 1px white,
 a{
   color:white;
   background-color:#EF7B27;
-  padding: 10px 20px;
+  padding: 10px 25px;
   border-radius:20px;
   text-decoration : none;
-  box-shadow:0px 2px 5px silver;
+  box-shadow:0px 2px 5px rgb(0,0,0,.5);
 }
 a:hover{
   color:white;
-  box-shadow:inset 0px 2px 5px maroon;
+  box-shadow:inset 0px 2px 5px rgb(0,0,0,.5);
 }
