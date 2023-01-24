@@ -45,21 +45,24 @@ ul {
   text-indent:10px;
 }
 #hero{
-  height:100vh;
+  height:80vh;
+  background-image:url("https://cdn.glitch.global/5575e1a1-f657-4263-85c0-d633ac39a201/7fcb33bf-fe00-4163-8d2d-29fc7aaeb940.image.png?v=1674554116661");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+#hero h1{
+   color:white;
+  text-align:center;
+text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
 }
 #number{
   height:100vh;
   background-color:silver;
   border:2px solid black;
 }
-.img-hero{
-  width:100%;
-}
-#hero h1{
-  position: sticky;
-  top: 20px;
-   color:white;
-text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black
- 
+#number article{
+  border:1px solid black;
+  border-radius:5px;
+  color:white;
 }
