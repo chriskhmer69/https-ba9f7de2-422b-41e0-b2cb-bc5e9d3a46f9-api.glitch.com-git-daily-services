@@ -82,10 +82,10 @@ ul {
   display: block;
   text-align: center;
   margin-bottom: 10px;
-}
+}/*-----------------------------------------FOOTER---------------------------------------------*/
 footer {
   padding: 10px 40px;
-
+  color:white;
   background: #ef7b27;
   text-align: center;
 }
@@ -93,8 +93,16 @@ footer {
 /*--------------------------------------------------------------------------------Dylan Header et HERO --------*/
 
 /*------------------------CSS SECTION ALEXANDRE-----------------------*/
+.carteChiffre{display:flex;
+width:100%;
+justify-content: space-around;}
+
+.carteChiffre article {
+  width:30%;
+}
+
 #number {
-  height: 1000;
+  height: 800px;
   background-color: #f6e0a7;
   margin-top: 5%;
   border-radius: 30px;
