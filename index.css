@@ -45,8 +45,10 @@ ul {
   text-indent:10px;
 }
 
-section{
-  background-color:gray;
+.hero{
   border:2px black solid;
   height:100vh;
+}
+.img-hero{
+  width:100%;
 }
