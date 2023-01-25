@@ -126,6 +126,8 @@ footer {
   color:black;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   margin:0px 30px 0px 30px;
+  display:flex;
+  flex-direction: column;
 }
 
 i{
@@ -165,7 +167,7 @@ i{
   padding-top: -10%;
   padding-left: 3%;
   color: #ee1e27;
-  width: 200px;
+  width: 1200px;
   font-size: 86%}
 
 .container article {
