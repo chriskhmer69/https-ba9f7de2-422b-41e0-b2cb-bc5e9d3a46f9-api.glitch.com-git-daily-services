@@ -82,7 +82,11 @@ ul {
   display: block;
   text-align: center;
   margin-bottom: 10px;
-}/*-----------------------------------------FOOTER---------------------------------------------*/
+}
+
+
+
+/*-----------------------------------------FOOTER---------------------------------------------*/
 footer {
   padding: 10px 40px;
   color:white;
@@ -92,36 +96,35 @@ footer {
 
 /*--------------------------------------------------------------------------------Dylan Header et HERO --------*/
 
-/*------------------------CSS SECTION ALEXANDRE-----------------------*/
-.carteChiffre{display:flex;
-width:100%;
-justify-content: space-around;}
 
-.carteChiffre article {
-  width:30%;
+
+
+
+
+/*------------------------CSS SECTION hans-----------------------*/
+  .container{
+  display:flex;
+  width:100%;
+  justify-content: space-evenly;
+  mpadding: 50px 0px 50px 0px;
   
-  background-color: #8dc63e;
-  margin-top: 10px;
-  margin-left: 10px;
+}
+
+.container article {
+  width:33%;
+  background-color: #ef7b27;
   border-radius: 3px;
   height: 300px;
-  padding-top: 4%;
-  padding-left: 3%;
-}
-
-#number {
-  height: 800px;
-  background-color: #f6e0a7;
-  margin-top: 5%;
-  border-radius: 30px;
-  padding-top: 4%;
-  padding-left: 3%;
+  color:white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin:0px 30px 0px 30px;
 }
 
 
-/*------------------------ THE END CSS SECTION ALEXANDRE-----------------------*/
 
-/*----------------------------------------------------------------------------------------Hans--------*/
+/*------------------------ THE END CSS SECTION hans-----------------------*/
+
+            /*------------------------CSS SECTION hans-----------------------*/
 
 ul.slider {
   list-style: none;
@@ -172,8 +175,7 @@ figure {
 
 }
 
-
-/*----------------------------------------------------------------------------------------Hans--------*/
+            /*------------------------ THE END CSS SECTION hans-----------------------*/
 
 /*-------------------------------------------------------------------------------------Avis Utilisateur--------*/
 
