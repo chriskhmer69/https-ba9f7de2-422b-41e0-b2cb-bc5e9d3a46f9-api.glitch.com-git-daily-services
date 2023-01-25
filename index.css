@@ -84,23 +84,8 @@ ul {
   margin-bottom: 10px;
 }
 
-/*-----------------------------------------FOOTER---------------------------------------------*/
-footer {
-  padding: 10px 40px;
-  color: white;
-  background: #ef7b27;
-  text-align: center;
-}
-footer h3 {
-  padding: 10px 40px;
-  color: white;
-  background: #ef7b27;
-  text-align: center;
-  display: block;
-}
 
-
-/*------------------------CSS SECTION hans-----------------------*/
+/*------------------------CSS SECTION Hans-----------------------*/
 
 .cards {
   margin-top: 100px;
@@ -381,5 +366,20 @@ text-align: center;}
 /*-------------------------------------------------------------------------------------Avis Utilisateur--------*/
 
 /*-------------------------------------------------------------------------------------Footer--------*/
+footer {
+  padding: 10px 40px;
+  color: white;
+  background: #ef7b27;
+  text-align: center;
+}
+footer h3 {
+  padding: 10px 40px;
+  color: white;
+  background: #ef7b27;
+  text-align: center;
+  display: block;
+}
+
+
 
 /*-------------------------------------------------------------------------------------AFooter--------*/
