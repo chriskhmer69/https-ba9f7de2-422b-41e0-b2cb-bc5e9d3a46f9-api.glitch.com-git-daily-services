@@ -61,7 +61,7 @@ ul {
 }
 #hero {
   height: 80vh;
-  background-image: url("https://cdn.glitch.global/5575e1a1-f657-4263-85c0-d633ac39a201/5498791.jpg?v=1674654171670") !important;
+  background-image: url("https://cdn.glitch.global/5575e1a1-f657-4263-85c0-d633ac39a201/Big%20diverse%20family%20members.jpg?v=1674655756778") !important;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -111,8 +111,9 @@ footer h3 {
   color:gray;
   align-content:center;
   width: 20%;
+  box-shadow:0px 2px 10px #c1c1c1;
 }
-h3{margin-top:20px;font-family:}
+h3{margin-top:20px;font-size:-10em;}
 
 
 /*------------------------CSS SECTION hans-----------------------*/
@@ -178,6 +179,8 @@ i {
 
 /*------------------------CSS SECTION Alexandre-----------------------*/
 
+
+
 .cardAlex {
   margin-top: 100px;
   text-align: center;
@@ -196,7 +199,7 @@ i {
 .article {
   overflow: hidden;
   
-  width: 50%;
+  width: 20%;
   background-color: #ef7b27;
   border-radius: 3px;
   height: 95px;
