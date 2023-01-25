@@ -106,7 +106,7 @@ footer {
   margin:auto;
   text-align:right;}
 
-
+h3{display:flex;margin:auto;text-align:center;}
 
 
 /*------------------------CSS SECTION hans-----------------------*/
@@ -173,7 +173,7 @@ margin:0;
 
             /*------------------------CSS SECTION Alexandre-----------------------*/
 
-.card{
+.cardAlex{
   margin-top: 100px;
   text-align:center;
 }  
@@ -189,70 +189,18 @@ margin:0;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 
-.chiffre {
+.article {
   width:33%;
-  background-color: white;
+  background-color: #FFAE73;
   border-radius: 3px;
-  height: 300px;
+  height: 80px;
   color:black;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   margin:0px 30px 0px 30px;
 }
 
-ul.slider {
-  list-style: none;
-  padding: 0;
-  margin: 0 auto;
-  height: 200px;
-  width: 80%;
-  overflow: hidden;
-}
-
-.slider li {
-  margin-bottom: 0 !important;
-  float: left;
-  white-space: nowrap;
-  width: 25%;
-  height: 100%;
-  transition: width 0.5s ease 0.1s;
-}
-.slider li.item_actif {
-  width: 50%;
-  margin: 0 auto;
-}
-.slider:hover li {
-  width: 25%;
-}
-.slider li:hover {
-  width: 50%;
-}
-.slider img {
-  width: 350px;
-  height: 200px;
-}
-figure {
-  display: flex;
-}
-.items img {
-  width: 50px;
-  height: 30px;
-  align-content:center;
-}
-.title{
-  text-align:center;
-  margin:50px 20px 50px 20px;
-}
-
-.section {
-  height:80vh;
-
-}
-.porcentage7{
-  font-size: 100px;
-  
-}
-.porcentage2{}
-.porcentage8{}
+.animation: move 3s;
+  -webkit-animation: move 3s;
 
             /*------------------------ THE END CSS SECTION Alexandre-----------------------*/
 
