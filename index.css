@@ -1,4 +1,7 @@
 /*--------------------------------------------------------------------------------Dylan Header et HERO --------*/
+html{
+  font-family: 'Karla', sans-serif;
+}
 header {
   display: flex;
   border-bottom: 3px solid #ef7b27;
@@ -299,7 +302,14 @@ span{
   width:20%;
   background-color:#ef7b27;
 }
-
+.deplacement{
+  width:100%;
+  height:72%;
+}
+.solidarite{
+  width:100%;
+  height:72%;
+}
 
 /*------------------------ THE END CSS SECTION Alexandre-----------------------*/
 
@@ -319,13 +329,13 @@ span{
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
+  z-index:0;
   
 }
 .taille:hover {
   -webkit-transform: scale(1.3);
-	transform: scale(1.3);
-  
-  z-index=10
+	transform: scale(1.2);
+  z-index:0;
 }
 
 
