@@ -84,7 +84,7 @@ ul {
   margin-bottom: 10px;
 }
 
-.taille{justify-content: space-around;width:-5px;height:-5px;justify-content: space-between;}
+
 
 /*-----------------------------------------FOOTER---------------------------------------------*/
 footer {
@@ -94,9 +94,10 @@ footer {
   text-align: center;
 }
 
-/*--------------------------------------------------------------------------------Dylan Header et HERO --------*/
+/*--------------------------------------------------------------------------------sebastien
+--------*/
 
-
+.taille{justify-content: space-around;display:flex;width:px;height:px;border-radius:50%}
 
 
 
