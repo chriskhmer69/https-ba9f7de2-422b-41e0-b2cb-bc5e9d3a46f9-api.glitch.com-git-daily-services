@@ -79,7 +79,7 @@ h2{
 h4{
   margin:20px 20px;padding:20px; text-align:center; color:black;
 }
-p{margin:0px 150px; padding:0px 10px; text-align:start; font-size:1.4em;}
+p{margin:0px 200px; padding:0px 10px; text-align:justify;text-indent: 3em; font-size:1.4em;}
 .container{
   display:flex;justify-content: center; margin:10px auto; 
 }
