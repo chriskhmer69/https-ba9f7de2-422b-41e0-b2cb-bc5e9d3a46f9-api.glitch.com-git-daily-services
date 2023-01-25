@@ -1,7 +1,4 @@
 /*--------------------------------------------------------------------------------Dylan Header et HERO --------*/
-html{
-  font-family: 'Karla', sans-serif;
-}
 header {
   display: flex;
   border-bottom: 3px solid #ef7b27;
@@ -121,6 +118,7 @@ footer h3 {
   border-radius: 20px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
 }
 
 .container article {
@@ -130,8 +128,21 @@ footer h3 {
   height: 300px;
   color: black;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
-    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  rgba(0, 0, 0, 0.22) 0px 15px 12px;
   margin: 0px 30px 0px 30px;
+      -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  z-index:0;
+}
+
+
+  
+.container article:hover {
+  -webkit-transform: scale(1.3);
+	transform: scale(1.2);
+  z-index:0;
 }
 
 i {
@@ -289,26 +300,33 @@ span{
   }
 }
 
-.entraide{
-  width:100%;
-}
+
 #benefice div{
   width:100%;
   display:flex;
   flex-wrap: wrap;  
   justify-content:space-around;
+  
 }
 .beneArticle{
   width:20%;
   background-color:#ef7b27;
+   border-radius: 3px;
+  font-color:
+  
+}
+.entraide{
+  width:100%;
+  height:80%;
+
 }
 .deplacement{
   width:100%;
-  height:72%;
+  height:80%;
 }
 .solidarite{
   width:100%;
-  height:72%;
+  height:80%;
 }
 
 /*------------------------ THE END CSS SECTION Alexandre-----------------------*/
