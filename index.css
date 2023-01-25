@@ -61,10 +61,11 @@ ul {
 }
 #hero {
   height: 80vh;
-  background-image: url("https://cdn.glitch.global/5575e1a1-f657-4263-85c0-d633ac39a201/elaine-casap-qgHGDbbSNm8-unsplash.jpg?v=1674571477149") !important;
+  background-image: url("https://cdn.glitch.global/5575e1a1-f657-4263-85c0-d633ac39a201/5498791.jpg?v=1674654171670") !important;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height:80vh;
 }
 #hero .text-hero {
   color: #ef7b27;
@@ -108,6 +109,7 @@ footer h3 {
   text-align: center;
   padding: 1rem;
   color:gray;
+  align-content:center;
   width: 10%;
 }
 
@@ -295,6 +297,10 @@ span{
     width: 100%;
   }
 }
+
+
+}
+
 /*------------------------ THE END CSS SECTION Alexandre-----------------------*/
 
 /*-------------------------------------------------------------------------------------Avis Utilisateur--------*/
