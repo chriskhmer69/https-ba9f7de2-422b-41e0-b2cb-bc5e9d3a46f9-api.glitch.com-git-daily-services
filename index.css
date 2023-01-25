@@ -94,15 +94,24 @@ footer {
   text-align: center;
 }
 
-/*--------------------------------------------------------------------------------sebastien
---------*/
+/*---------------------------------------------------------------sebastien-------*/
 
-.taille{justify-content:space-between;display:flex;border-radius:1000px;background-color:pink;width:150%;margin:auto;text-align:right;}
+.taille{
+  justify-content:space-between;
+  color:orange;
+  display:flex;
+  border-radius:1000px;
+  background-color:yellow;
+  width:80%;
+  margin:auto;
+  text-align:right;}
 
 
 
 
 /*------------------------CSS SECTION hans-----------------------*/
+
+
 .cards{
   margin-top: 100px;
   text-align:center;
