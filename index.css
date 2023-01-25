@@ -97,7 +97,7 @@ footer {
 /*--------------------------------------------------------------------------------sebastien
 --------*/
 
-.taille{justify-content: space-around;display:flex;width:px;height:px;border-radius:50%}
+.taille{justify-content:space-between;display:flex;border-radius:1000px;background-color:pink;width:150%;margin:auto;text-align:right;}
 
 
 
