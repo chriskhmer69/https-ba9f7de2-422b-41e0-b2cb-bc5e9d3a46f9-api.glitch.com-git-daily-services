@@ -71,6 +71,12 @@ ul {
 }
 
 h2{
-  text-align:center; background-color:#ef7b27;color:white;
+  text-align:center; background-color:#ef7b27;color:white;margin-top:10px;
+}
+h4{
+  margin-left:100px;
 }
 p{margin:0px 60px;padding:0px 10px;text-align:justify;}
+img{
+  display:block;margin:auto;
+}
