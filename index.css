@@ -71,7 +71,6 @@ ul {
   box-shadow: 0px 2px 5px rgb(0, 0, 0, 0.8);
   padding: 10px 40px;
   border-radius: 10px 30px;
-  float: right;
   margin:auto;
   margin-top: 20px;
   text-align: center;
@@ -299,7 +298,10 @@ span{
   }
 }
 
-
+.dailyServicePour{
+  display:flex;
+  justify-content:center;
+}
 #benefice div{
   width:100%;
   display:flex;
@@ -343,15 +345,15 @@ span{
 /*----------------------------------Avis Utilisateur fait par sebastien--------*/
 
 .taille {
-  background-color:white;
+  /*background-color:white;*/
   margin: 10px;
   flex-direction: column;
   text-align: center;
   padding: 1rem;
   color:gray;
   align-content:center;
-  width: 20%;
-  box-shadow:0px 2px 10px #c1c1c1;
+  width: 15%;
+  /*box-shadow:0px 2px 10px #c1c1c1;*/
   -webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
