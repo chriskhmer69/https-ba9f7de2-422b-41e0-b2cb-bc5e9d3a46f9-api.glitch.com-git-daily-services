@@ -136,7 +136,6 @@ footer {
   color:black;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   margin:0px 30px 0px 30px;
-  display: flex;
 }
 
 i{
@@ -156,7 +155,17 @@ i{
 }
 
 .profil {
-  display
+  display:flex;
+  margin: 5px 5px 5px 15px;
+}
+
+.avis p{
+margin:0;  
+}
+
+.image{
+  font-size: 12px;
+  padding-top: 10px;
 }
 
 
