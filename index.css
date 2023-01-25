@@ -84,7 +84,7 @@ ul {
   margin-bottom: 10px;
 }
 
-.taille{justify-content: space-evenly;width:px;height:px;}
+.taille{justify-content: space-around;width:-5px;height:-5px;justify-content: space-between;}
 
 /*-----------------------------------------FOOTER---------------------------------------------*/
 footer {
