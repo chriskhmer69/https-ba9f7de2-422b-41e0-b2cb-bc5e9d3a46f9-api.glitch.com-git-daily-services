@@ -107,6 +107,7 @@ footer h3 {
   flex-direction: column;
   text-align: center;
   padding: 1rem;
+  color:gray;
   width: 10%;
 }
 
@@ -197,13 +198,15 @@ i {
   width: 33%;
   background-color: white;
   border-radius: 3px;
-  height: 80px;
+  height: 95px;
   color: black;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
   margin: 0px 30px 0px 30px;
 }
-
+span{
+  font-size:30px;
+}
 .paraAlex {
   color: #ffae73;
   animation: move 5s;
@@ -235,6 +238,7 @@ i {
   }
 }
 .paraAlex2 {
+  color: #ffae73;
   animation: move 7s;
   -webkit-animation: move 7s;
 }
@@ -263,6 +267,7 @@ i {
   }
 }
 .paraAlex3 {
+  color: #ffae73;
   animation: move 9s;
   -webkit-animation: move 9s;
 }
