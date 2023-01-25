@@ -103,14 +103,13 @@ footer h3 {
 
 .taille {
   display: inline-flex;
-  flex: 1 1 auto;
+  margin: 10px;
   flex-direction: column;
+  text-align: center;
   padding: 1rem;
-  box-shadow:6px 60px 2px pink;
-  width:50%;
+  width: 10%;
 }
 
-/*h3{display:flex;margin:auto;text-align:center;}
 
 
 /*------------------------CSS SECTION hans-----------------------*/
@@ -194,8 +193,9 @@ i {
 }
 
 .article {
+  overflow: hidden;
   width: 33%;
-  background-color: #ffae73;
+  background-color: white;
   border-radius: 3px;
   height: 80px;
   color: black;
@@ -205,8 +205,10 @@ i {
 }
 
 .paraAlex {
+  color: #ffae73;
   animation: move 5s;
   -webkit-animation: move 5s;
+  transition-delay:400ms;
 }
 
 @keyframes move {
@@ -263,7 +265,6 @@ i {
 .paraAlex3 {
   animation: move 9s;
   -webkit-animation: move 9s;
-  
 }
 
 @keyframes move {
