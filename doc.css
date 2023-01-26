@@ -1,3 +1,15 @@
+/* --------------------------------------------------------- Element design */
+
+:root {
+  --font-1: "Nunito", sans-serif; /* Title */
+  --font-2: 'Karla', sans-serif; /* Texte */
+
+  --color-1: #EF7B27; /* rose */
+  --color-2: #DCDCF4; /* Gris */
+  --color-3: #ffffff; /* Blanc */
+  --color-4: #21201F; /* Noir */
+}
+
 /*----------------------------------------------------------------------Copier commentaire pour sectionner--------*/
 
 img {
@@ -6,7 +18,7 @@ img {
 }
 header {
   display: flex;
-  border-bottom: 3px solid #ef7b27;
+  border-bottom: 3px solid var(--color-1);
 }
 header img {
   max-height: 80px;
@@ -18,12 +30,12 @@ nav {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background-color: var(--color-3);
   margin: 5px;
   margin-top: 15px;
 }
 .photo{
-  width:100vw;
+  width:100%;
   height:500px;
   
 }
@@ -43,15 +55,15 @@ nav {
   font-size: 15px;
 }
 li a {
-  color: white;
-  background-color: #ef7b27;
+  color: var(--color-3);
+  background-color: var(--color-1);
   padding: 10px 25px;
   border-radius: 30px;
   text-decoration: none;
   box-shadow: 0px 2px 5px rgb(0, 0, 0, 0.5);
 }
 li a:hover {
-  color: white;
+  color: var(--color-3);
   box-shadow: inset 0px 2px 5px rgb(0, 0, 0, 0.5);
 }
 
@@ -70,9 +82,6 @@ ul {
   margin: 10px;
 }
 
-.retour href {
-  scroll-behavior: smooth;
-}
 .photo-testeur {
   border: 5px;
   height: 150px;
@@ -81,15 +90,15 @@ ul {
 
 h2 {
   text-align: center;
-  background-color: #ef7b27;
-  color: white;
+  background-color: var(--color-1);
+  color: var(--color-3);
   margin-top: 60px;
 }
 h4 {
   margin: 20px 20px;
   padding: 20px;
   text-align: center;
-  color: black;
+  color: var(--color-4);
 }
 p {
   margin: 0px 200px;
@@ -121,9 +130,16 @@ video{
   justify-content:center;
   
 }
-àpropos{
-   justify-content:center;
-  
-  
-  
+footer {
+  padding: 10px 40px;
+  color: white;
+  background: #ef7b27;
+  text-align: center;
+}
+footer h3 {
+  padding: 10px 40px;
+  color: white;
+  background: #ef7b27;
+  text-align: center;
+  display: block;
 }
