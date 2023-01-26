@@ -1,7 +1,24 @@
+/* --------------------------------------------------------- Element design */
+
+:root {
+  --font-1: "ROBOTO", sans-serif; /* Title */
+
+  --color-1: #FE735C; /* rose */
+  --color-2: #DCDCF4; /* Gris */
+  --color-3: #ffffff; /* Blanc */
+  --color-4: #21201F; /* Noir */
+}
+
+
+body html{
+font-family:var(--font-1)
+}
+
+
 /*--------------------------------------------------------------------------------Dylan Header et HERO --------*/
 header {
   display: flex;
-  border-bottom: 3px solid #ef7b27;
+  border-bottom: 3px solid var(--color-1);
 }
 header img {
   max-height: 80px;
@@ -97,7 +114,7 @@ ul {
   width: 100vw;
   justify-content: space-evenly;
   padding: 50px 0px 50px 0px;
-  background-color: #ef7b27;
+  background-color: var(--color-1);
   border-radius: 20px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
@@ -183,7 +200,7 @@ i {
   overflow: hidden;
   
   width: 30%;
-  background-color: #ef7b27;
+  background-color: var(--color-1);
   border-radius: 3px;
   height: 95px;
   color: black;
@@ -297,7 +314,7 @@ span{
 }
 .beneArticle{
   width:20%;
-  background-color:#ef7b27;
+  background-color:var(--color-1);
    border-radius: 3px;
   color:white;
    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
