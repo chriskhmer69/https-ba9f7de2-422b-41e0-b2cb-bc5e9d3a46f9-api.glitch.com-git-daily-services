@@ -1,7 +1,8 @@
 /* --------------------------------------------------------- Element design */
 
 :root {
-  --font-1: "ROBOTO", sans-serif; /* Title */
+  --font-1: "Roboto", sans-serif; /* Text*/
+  --font-2: 'Kanit', sans-serif; /* Title*/
 
   --color-1: #FE735C; /* rose */
   --color-2: #DCDCF4; /* Gris */
@@ -11,7 +12,12 @@
 
 
 body html{
-font-family:var(--font-1)
+font-family: var(--font-1)
+}
+
+h2 h3 h4{
+  font-family: var(--font-2)
+  font-size: 25px;
 }
 
 /*----------------------------------------------------------------------Copier commentaire pour sectionner--------*/

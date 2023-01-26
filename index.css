@@ -1,7 +1,8 @@
 /* --------------------------------------------------------- Element design */
 
 :root {
-  --font-1: "ROBOTO", sans-serif; /* Title */
+  --font-1: "Roboto", sans-serif; /* Text*/
+  --font-2: 'Kanit', sans-serif; /* Title*/
 
   --color-1: #FE735C; /* rose */
   --color-2: #DCDCF4; /* Gris */
@@ -11,7 +12,11 @@
 
 
 body html{
-font-family:var(--font-1)
+font-family: var(--font-1)
+}
+
+h2 h3 h4{
+  font-family: var(--font-2)
 }
 
 
@@ -22,7 +27,7 @@ header {
 }
 header img {
   max-height: 80px;
-  max-width: 80px;
+  max-width: 800px;
   margin: 5px;
 }
 nav {
@@ -50,7 +55,7 @@ nav {
 }
 a {
   color: white;
-  background-color: #ef7b27;
+  background-color: var(--color-1);
   padding: 10px 25px;
   border-radius: 30px;
   text-decoration: none;
@@ -111,7 +116,7 @@ ul {
 
 .container {
   display: flex;
-  width: 100vw;
+  width: 100%;
   justify-content: space-evenly;
   padding: 50px 0px 50px 0px;
   background-color: var(--color-1);
@@ -386,13 +391,13 @@ text-align: center;}
 footer {
   padding: 10px 40px;
   color: white;
-  background: #ef7b27;
+  background: var(--color-1);
   text-align: center;
 }
 footer h3 {
   padding: 10px 40px;
   color: white;
-  background: #ef7b27;
+  background: var(--color-1);
   text-align: center;
   display: block;
 }
