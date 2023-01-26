@@ -2,16 +2,13 @@
 
 :root {
   --font-1: "Roboto", sans-serif; /* Text*/
-  --font-2: 'Kanit', sans-serif; /* Title*/
+  --font-2: "Kanit", sans-serif; /* Title*/
 
-  --color-1: #FE735C; /* rose */
-  --color-2: #DCDCF4; /* Gris */
+  --color-1: #fe735c; /* rose */
+  --color-2: #dcdcf4; /* Gris */
   --color-3: #ffffff; /* Blanc */
-  --color-4: #21201F; /* Noir */
+  --color-4: #21201f; /* Noir */
 }
-
-
-
 
 /*--------------------------------------------------------------------------------Dylan Header et HERO --------*/
 header {
@@ -34,7 +31,7 @@ nav {
 .profile img {
   width: 200px;
   height: 100px;
-  margin-left:-60px;
+  margin-left: -60px;
 }
 .profile h1 {
   margin-left: -60px;
@@ -52,7 +49,6 @@ a {
 a:hover {
   color: white;
   box-shadow: inset 0px 2px 5px rgb(0, 0, 0, 0.5);
-
 }
 
 ul {
@@ -77,24 +73,22 @@ ul {
   background-size: cover;
 }
 #hero .text-hero {
-  color: rgb(50,50,50,1);
+  color: rgb(50, 50, 50, 1);
   background-color: rgb(255, 255, 255, 1);
   box-shadow: 0px 2px 5px rgb(0, 0, 0, 0.8);
   padding: 10px 40px;
   border-radius: 10px 30px;
-  margin:auto;
+  margin: auto;
   margin-top: 20px;
   text-align: center;
   font-size: 1.2em;
   width: 45%;
-  
 }
 .text-hero a {
   display: block;
   text-align: center;
   margin-bottom: 10px;
 }
-
 
 /*------------------------CSS SECTION Hans-----------------------*/
 
@@ -121,21 +115,19 @@ ul {
   height: 300px;
   color: var(--color-4);
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
-  rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
   margin: 0px 30px 0px 30px;
   -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-  z-index:0;
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  z-index: 0;
 }
 
-
-  
 .container article:hover {
   -webkit-transform: scale(1.3);
-	transform: scale(1.2);
-  z-index:0;
+  transform: scale(1.2);
+  z-index: 0;
 }
 
 i {
@@ -172,8 +164,6 @@ i {
 
 /*------------------------CSS SECTION Alexandre-----------------------*/
 
-
-
 .cardAlex {
   margin-top: 100px;
   text-align: center;
@@ -198,14 +188,14 @@ i {
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
   margin: 0px 30px 0px 30px;
 }
-span{
-  font-size:30px;
+span {
+  font-size: 30px;
 }
 .paraAlex {
   color: var(--color-3);
   animation: move 5s;
   -webkit-animation: move 5s;
-  transition-delay:400ms;
+  transition-delay: 400ms;
 }
 
 @keyframes move {
@@ -290,46 +280,41 @@ span{
   }
 }
 
-.dailyServicePour{
-  display:flex;
-  justify-content:center;
+.dailyServicePour {
+  display: flex;
+  justify-content: center;
 }
-#benefice div{
-  width:100%;
-  display:flex;
-  flex-wrap: wrap;  
-  justify-content:space-around;
-  
-  
+#benefice div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
-.beneArticle{
-  width:20%;
-  background-color:var(--color-1);
-   border-radius: 3px;
-  color:var(--color-3);
-   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+.beneArticle {
+  width: 20%;
+  background-color: var(--color-1);
+  border-radius: 3px;
+  color: var(--color-3);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
   margin: 0px 30px 0px 30px;
-
 }
 #benefice p {
- display: flex;
+  display: flex;
   justify-content: center;
 }
 
-
-.entraide{
-  width:100%;
-  height:80%;
-
+.entraide {
+  width: 100%;
+  height: 80%;
 }
-.deplacement{
-  width:100%;
-  height:80%;
+.deplacement {
+  width: 100%;
+  height: 80%;
 }
-.solidarite{
-  width:100%;
-  height:80%;
+.solidarite {
+  width: 100%;
+  height: 80%;
 }
 
 /*------------------------ THE END CSS SECTION Alexandre-----------------------*/
@@ -342,34 +327,34 @@ span{
   flex-direction: column;
   text-align: center;
   padding: 1rem;
-  color:var(--color-2);
-  align-content:center;
+  color: var(--color-2);
+  align-content: center;
   width: 15%;
   /*box-shadow:0px 2px 10px #c1c1c1;*/
   -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-  z-index:0;
-  
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  z-index: 0;
 }
 .taille:hover {
   -webkit-transform: scale(1.3);
-	transform: scale(1.2);
-  z-index:0;
+  transform: scale(1.2);
+  z-index: 0;
 }
-
-
 
 #avisUtilisateurs {
   margin-bottom: 5%;
-display:flex;
-  flex-wrap:wrap;margin-top:5%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
 }
 
-#avisUtilisateurs h3 {width:100%;
-font-size: 4.2rem;
-text-align: center;}
+#avisUtilisateurs h3 {
+  width: 100%;
+  font-size: 4.2rem;
+  text-align: center;
+}
 /*-------------------------------------------------------------------------------------Avis Utilisateur--------*/
 
 /*-------------------------------------------------------------------------------------Footer--------*/
@@ -386,7 +371,5 @@ footer h3 {
   text-align: center;
   display: block;
 }
-
-
 
 /*-------------------------------------------------------------------------------------AFooter--------*/
