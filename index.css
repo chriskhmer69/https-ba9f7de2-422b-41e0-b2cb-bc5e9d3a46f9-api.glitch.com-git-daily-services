@@ -15,9 +15,6 @@ body html{
 font-family: var(--font-1);
 }
 
-h2 h3 h4{
-  font-family: var(--font-2);
-}
 
 
 /*--------------------------------------------------------------------------------Dylan Header et HERO --------*/
@@ -48,6 +45,7 @@ nav {
   font-weight: bold;
   color: rgb(50, 50, 50, 1);
   font-size: 15px;
+  font-family: var(--font-2);
 }
 a {
   color: white;
@@ -60,6 +58,7 @@ a {
 a:hover {
   color: white;
   box-shadow: inset 0px 2px 5px rgb(0, 0, 0, 0.5);
+
 }
 
 ul {
