@@ -26,6 +26,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-2);
 }
 
+h2{font-size: 2.5em;}
+
 /*---------------------------------------------------------------------------------------------Font--------*/
 
 header {
@@ -119,7 +121,7 @@ ul {
   padding: 150px 30px 0px 60px;
   text-align: left;
   font-size: 1.2em;
-  width: 30%;
+  width: 40%;
 }
 .list-footer {
   list-style: square;
@@ -207,12 +209,15 @@ i {
 #chiffre {
   background-color: #fe735c;
 }
-.unPeu {
+.spanCourgette {
   display: flex;
   justify-content: center;
+  color:white;
+  font-size: 2.5em;
+  margin-bottom:3%;
 }
 .chiffre1 {
-  margin-top: 20%;
+  margin-top: 10%;
   padding: 5% 0 5% 0;
 }
 #chiffre div {
@@ -236,6 +241,8 @@ i {
 .dailyServicePour {
   display: flex;
   justify-content: center;
+  color:white;
+  margin-top:10%;
 }
 #benefice div {
   width: 100%;
