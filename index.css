@@ -13,6 +13,7 @@
 /*--------------------------------------------------------------------------------Dylan Header et HERO --------*/
 header {
   display: flex;
+  z-index:10;
   box-shadow:0px 3px 5px var(--color-4);
   position: fixed;
   top:0px;
@@ -33,7 +34,7 @@ nav {
 }
 .profile h1 {
   font-weight: bold;
-  margin-right:10px;
+  margin-left:30px;
   color: rgb(50, 50, 50, 1);
 }
 a {
@@ -65,6 +66,7 @@ ul {
 }
 #hero {
   height: 140vh;
+  margin-top: 89px;
   background-image: url("https://cdn.glitch.global/5575e1a1-f657-4263-85c0-d633ac39a201/7197526.jpg?v=1674660651668") !important;
   background-repeat: no-repeat;
   background-position: center;
