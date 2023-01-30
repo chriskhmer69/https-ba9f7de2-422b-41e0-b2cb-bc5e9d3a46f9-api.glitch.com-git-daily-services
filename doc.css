@@ -1,8 +1,9 @@
 /* --------------------------------------------------------- Element design */
 
 :root {
-  --font-1: "Roboto", sans-serif; /* Text*/
+  --font-1:'Mulish', sans-serif; /* Texte*/
   --font-2: 'Kanit', sans-serif; /* Title*/
+  --font-3:'Courgette', cursive; /* Span*/
 
   --color-1: #FE735C; /* rose */
   --color-2: #DCDCF4; /* Gris */
