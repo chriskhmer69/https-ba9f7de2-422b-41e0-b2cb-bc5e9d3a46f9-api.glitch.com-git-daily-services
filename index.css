@@ -383,5 +383,5 @@ footer h3 {
   text-align: center;
   display: block;
 }
-
+.border{ justify-content: flex-start;display: flex;}
 /*-------------------------------------------------------------------------------------AFooter--------*/
