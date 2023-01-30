@@ -81,19 +81,18 @@ ul {
   flex-direction: row;
   width: 100%;
   margin-top: 70px;
+  text-align:center;
 }
 #hero .image-hero {
-  background-image: url("https://cdn.glitch.global/5575e1a1-f657-4263-85c0-d633ac39a201/7197526.jpg?v=1674660651668") !important;
+  background-image: url("https://cdn.glitch.global/5575e1a1-f657-4263-85c0-d633ac39a201/7197526.jpg?v=1674660651668");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 75%;
-  height:;
+  width: 50%;
 }
 #hero .text-hero {
   color: rgb(50, 50, 50, 1);
-  padding: 10px 40px;
-  margin-top: 20px;
+  padding: 10px 30px;
   text-align: center;
   font-size: 1.2em;
   width: 25%;
