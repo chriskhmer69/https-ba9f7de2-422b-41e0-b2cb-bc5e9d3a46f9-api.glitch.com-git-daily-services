@@ -11,18 +11,30 @@
 }
 
 /*--------------------------------------------------------------------------------Dylan Header et HERO --------*/
+p,
+a {
+  font-family: var(--font-1);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-2);
+}
 header {
   display: flex;
-  z-index:10;
-  box-shadow:0px 3px 5px var(--color-4);
+  z-index: 10;
+  box-shadow: 0px 3px 5px var(--color-4);
   position: fixed;
-  top:0px;
-  width:100%;
+  top: 0px;
+  width: 100%;
 }
 nav {
   display: flex;
-  width:100%;
-  text-align:center;
+  width: 100%;
+  text-align: center;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
@@ -34,7 +46,7 @@ nav {
 }
 .profile h1 {
   font-weight: bold;
-  margin-left:30px;
+  margin-left: 30px;
   color: rgb(50, 50, 50, 1);
 }
 a {
@@ -65,8 +77,11 @@ ul {
   margin: 10px;
 }
 #hero {
+  display: flex;
   height: 140vh;
   margin-top: 89px;
+}
+#hero .image-hero {
   background-image: url("https://cdn.glitch.global/5575e1a1-f657-4263-85c0-d633ac39a201/7197526.jpg?v=1674660651668") !important;
   background-repeat: no-repeat;
   background-position: center;
@@ -75,7 +90,6 @@ ul {
 #hero .text-hero {
   color: rgb(50, 50, 50, 1);
   background-color: rgb(255, 255, 255, 1);
-  box-shadow: 0px 2px 5px rgb(0, 0, 0, 0.8);
   padding: 10px 40px;
   border-radius: 10px 30px;
   margin: auto;
@@ -90,9 +104,8 @@ ul {
   margin-bottom: 10px;
 }
 
-
 #content-page {
-  margin:0 10% 0 10%;
+  margin: 0 10% 0 10%;
 }
 
 /*------------------------CSS SECTION Hans-----------------------*/
@@ -172,6 +185,7 @@ i {
 .cardAlex {
   margin-top: 100px;
   text-align: center;
+  background-color: #fe735c;
 }
 
 .chiffre {
