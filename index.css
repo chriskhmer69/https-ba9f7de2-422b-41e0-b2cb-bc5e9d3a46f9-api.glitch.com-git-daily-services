@@ -346,17 +346,9 @@ i {
 footer {
   padding: 10px 40px;
   color: var(--color-3);
-  background: var(--color-1);
-  text-align: center;
+  background-color: var(--color-1);
   display: flex;
   justify-content: space-between;
-}
-footer h3 {
-  padding: 10px 40px;
-  color: var(--color-3);
-  background: var(--color-1);
-  text-align: center;
-  display: block;
 }
 .border {
   justify-content: flex-start;
@@ -367,5 +359,8 @@ footer h3 {
 .box {
   width: 33%;
 }
-.box ul{list-none;}
+.box ul{list-style:none;color:white;}
+.box ul li {
+  color:white;
+}
 /*-------------------------------------------------------------------------------------AFooter--------*/
