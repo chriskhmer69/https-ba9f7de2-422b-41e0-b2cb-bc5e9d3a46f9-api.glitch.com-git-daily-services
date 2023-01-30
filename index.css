@@ -49,14 +49,14 @@ nav {
   margin-left: 60px;
   color: rgb(50, 50, 50, 1);
 }
-a {
+li a {
   color: black;
   background-color: white;
   padding: 10px 25px;
   border-radius: 30px;
   text-decoration: none;
 }
-a:hover {
+li a:hover {
   color: white;
   background-color: var(--color-1);
   box-shadow: 0px 2px 5px rgb(0, 0, 0, 0.5);
@@ -97,9 +97,6 @@ ul {
   list-style: square;
   display:inline;
   text-align:left;
-}
-.list-footer a{
-  bcakground-color:;
 }
 
 #content-page {
