@@ -222,7 +222,7 @@ i {
   justify-content: space-around;
 }
 .article {
-  width: 25%;
+  width: 15%;
   border-radius: 3px;
   color: var(--color-3);
   display: flex;
