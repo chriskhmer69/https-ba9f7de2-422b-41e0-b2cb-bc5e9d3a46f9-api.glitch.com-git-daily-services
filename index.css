@@ -78,7 +78,8 @@ ul {
 }
 #hero {
   display: flex;
-  width:100%;
+  flex-direction: row;
+  width: 100%;
   margin-top: 70px;
 }
 #hero .image-hero {
@@ -86,23 +87,16 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width:70%;
+  width: 75%;
+  height:;
 }
 #hero .text-hero {
   color: rgb(50, 50, 50, 1);
-  background-color: rgb(255, 255, 255, 1);
   padding: 10px 40px;
-  border-radius: 10px 30px;
-  margin: auto;
   margin-top: 20px;
   text-align: center;
   font-size: 1.2em;
-  width: 30%;
-}
-.text-hero a {
-  display: block;
-  text-align: center;
-  margin-bottom: 10px;
+  width: 25%;
 }
 
 #content-page {
@@ -183,62 +177,35 @@ i {
 
 /*------------------------CSS SECTION Alexandre-----------------------*/
 
+#chiffre {
+  background-color: #fe735c;
+}
 .unPeu {
   display: flex;
   justify-content: center;
- 
 }
-
 
 #chiffre div {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-   background-color:#fe735c;
+
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
   margin: 0px 30px 0px 30px;
 }
 .article {
-  width: 20%;
+  width: %;
   background-color: var(--color-3);
   border-radius: 3px;
   color: var(--color-1);
-  
-}
-
-
-.cardAlex {
-  margin-top: 100px;
-  text-align: center;
-  background-color: #fe735c;
-}
-
-.chiffre {
-  display: flex;
-  width: 100%;
-  justify-content: space-evenly;
-  padding: 50px 0px 50px 0px;
-  background-color: var(--color-3);
-}
-
-.article {
-  overflow: hidden;
-  width: 30%;
-  background-color: var(--color-1);
-  border-radius: 3px;
-  height: 95px;
-  color: var(--color-5);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
-    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-  margin: 0px 30px 0px 30px;
 }
 span {
   font-size: 30px;
 }
 .paraAlex {
-  color: var(--color-3);
+  color: var(--color-1);
   animation: move 5s;
   -webkit-animation: move 5s;
   transition-delay: 400ms;
@@ -268,7 +235,7 @@ span {
   }
 }
 .paraAlex2 {
-  color: var(--color-3);
+  color: var(--color-1);
   animation: move 7s;
   -webkit-animation: move 7s;
 }
@@ -297,7 +264,7 @@ span {
   }
 }
 .paraAlex3 {
-  color: var(--color-3);
+  color: var(--color-1);
   animation: move 9s;
   -webkit-animation: move 9s;
 }
