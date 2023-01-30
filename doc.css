@@ -2,7 +2,7 @@
 
 :root {
   --font-1:'Mulish', sans-serif; /* Texte*/
-  --font-2: 'Kanit', sans-serif; /* Title*/
+  --font-2:'Kanit', sans-serif; /* Title*/
   --font-3:'Courgette', cursive; /* Span*/
 
   --color-1: #FE735C; /* rose */
@@ -16,9 +16,25 @@
 /*----------------------------------------------------------------------Copier commentaire pour sectionner--------*/
 
 
-html body{
+span{
+  font-family: var(--font-3); 
+  color: var(--color-1);
+}
+
+p,
+a {
   font-family: var(--font-1);
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-2);
+}
+
+/*---------------------------------------------------------------------------------------------Font--------*/
 
 img {
   display: block;
