@@ -161,12 +161,8 @@ video {
   justify-content: center;
 }
 
-footer {
-  padding: 10px 40px;
-  color: var(--color-3);
-  background: #ef7b27;
-  text-align: center;
-}
+
+
 footer h3 {
   padding: 10px 40px;
   color: var(--color-3);
@@ -175,7 +171,34 @@ footer h3 {
   display: block;
 }
 
-.images {
-  margin-top: 60px;
-  margin-bottom: 60px;
+
+
+footer {
+  padding: 10px 40px;
+  color: var(--color-3);
+  background-color: var(--color-1);
+  display: flex;
+  justify-content: space-between;
+}
+.border {
+  justify-content: flex-start;
+  display: flex;
+  margin-top: 20px;
+}
+
+.box {
+  width: 33%;
+  text-align: center;
+  padding: 10px;
+}
+.box ul {
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}
+.box ul a {
+  color: white;
+}
+.box ul a:hover {
+  color: black;
 }
