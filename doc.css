@@ -36,9 +36,7 @@ h6 {
 img {
   display: block;
   margin: auto;
-  
 }
-
 
 header {
   display: flex;
@@ -101,7 +99,7 @@ ul {
 .ulNav {
   display: flex;
   justify-content: space-around;
-margin-left: 461px;
+  margin-left: 461px;
   margin-top: 15px;
 }
 .ulNav li {
