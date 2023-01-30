@@ -358,9 +358,18 @@ footer {
 
 .box {
   width: 33%;
+  text-align:center;
+  padding:10px;
 }
-.box ul{list-style:none;color:white;}
-.box ul li {
+.box ul{
+  list-style:none;
+  color:white;  
+  text-decoration:none;
+}
+.box ul a {
   color:white;
+}
+.box ul a:hover {
+  color:black;
 }
 /*-------------------------------------------------------------------------------------AFooter--------*/
