@@ -22,12 +22,7 @@ p,
 a {
   font-family: var(--font-1);
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-2);
 }
 
@@ -84,6 +79,15 @@ li a:hover {
   border-radius: 30px;
   text-decoration: none;
   box-shadow: 0px 4px 6px rgb(0, 0, 0, 0.3);
+}
+.stores img{
+background: black;
+border-radius: 7px;
+transition: all 0.2s ease-out;
+height: 46px;
+}
+.stores img:hover{
+  background:var(--color-1);
 }
 
 ul {
@@ -310,7 +314,9 @@ footer {
   padding: 10px 40px;
   color: var(--color-3);
   background: var(--color-1);
-  text-align: center;  display: flex;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
 }
 footer h3 {
   padding: 10px 40px;
@@ -321,11 +327,7 @@ footer h3 {
 }
 .border {
   justify-content: flex-start;
-  display: flex;
+  display: flex;margin:top;
 }
 
-
-  
- 
-
-/*-------------------------------------------------------------------------------------AFooter--------*/
+/*-------------------------------------------------------------------------------------AFooter--------*/ 
