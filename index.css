@@ -1,9 +1,9 @@
 /* --------------------------------------------------------- Element design */
 
 :root {
-  --font-1:'Mulish', sans-serif; /* Texte*/
-  --font-2: 'Kanit', sans-serif; /* Title*/
-  --font-3:'Courgette', cursive; /* Span*/
+  --font-1: "Mulish", sans-serif; /* Texte*/
+  --font-2: "Kanit", sans-serif; /* Title*/
+  --font-3: "Courgette", cursive; /* Span*/
 
   --color-1: #fe735c; /* rose */
   --color-2: #dcdcf4; /* Gris */
@@ -13,9 +13,8 @@
 
 /*--------------------------------------------------------------------------------Dylan Header et HERO --------*/
 
-
-span{
-  font-family: var(--font-3); 
+span {
+  font-family: var(--font-3);
   color: var(--color-1);
 }
 
@@ -37,7 +36,7 @@ h6 {
 header {
   display: flex;
   z-index: 10;
-  box-shadow: 0px 3px 5px rgb(0 ,0 ,0 ,.25);
+  box-shadow: 0px 3px 5px rgb(0, 0, 0, 0.25);
   position: fixed;
   top: 0px;
   width: 100%;
@@ -70,23 +69,22 @@ li a {
 li a:hover {
   color: var(--color-1);
 }
-.download{
+.download {
   color: white;
   background-color: var(--color-1);
   padding: 10px 25px;
   border-radius: 30px;
   text-decoration: none;
 }
-.download:hover{
+.download:hover {
   color: white;
   background-color: var(--color-1);
-  opacity:0.9;
+  opacity: 0.9;
   padding: 10px 25px;
   border-radius: 30px;
   text-decoration: none;
-  box-shadow: 0px 4px 6px rgb(0,0,0,.3);
+  box-shadow: 0px 4px 6px rgb(0, 0, 0, 0.3);
 }
-
 
 ul {
   display: flex;
@@ -159,13 +157,13 @@ ul {
   transition: 0.3s ease-in-out;
   z-index: 0;
   border-radius: 20px;
+  text-align: left;
 }
 
 .container article:hover {
   -webkit-transform: scale(1.3);
   transform: scale(1.2);
   z-index: 0;
-  text-align:left;
 }
 
 i {
@@ -176,7 +174,6 @@ i {
   width: 75px;
   height: 50px;
   border-radius: 100%;
-  padding: 10px;
 }
 
 .image img {
@@ -190,7 +187,7 @@ i {
 }
 
 .avis p {
-  margin: 0;
+  margin: 0px 5px 0px 5px;
 }
 
 .image {
@@ -204,42 +201,32 @@ i {
 
 #chiffre {
   background-color: #fe735c;
- 
 }
 .unPeu {
   display: flex;
   justify-content: center;
 }
 .chiffre1 {
-  margin-top:20%;
-  padding:5% 0 5% 0;
-  
+  margin-top: 20%;
+  padding: 5% 0 5% 0;
 }
 #chiffre div {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-
-
 }
 .article {
   width: 25%;
-    border-radius: 3px;
+  border-radius: 3px;
   color: var(--color-3);
-  display:flex;
-text-align:center;
+  display: flex;
+  text-align: center;
 }
 .spanNumber {
   font-size: 4rem;
-  color:white;
- 
-  
+  color: white;
 }
-
-
-
-
 
 .dailyServicePour {
   display: flex;
@@ -323,7 +310,7 @@ footer {
   padding: 10px 40px;
   color: var(--color-3);
   background: var(--color-1);
-  text-align: center;
+  text-align: center;  display: flex;
 }
 footer h3 {
   padding: 10px 40px;
@@ -336,5 +323,9 @@ footer h3 {
   justify-content: flex-start;
   display: flex;
 }
-.center{align-items: center;display: flex;}
+
+
+  
+ 
+
 /*-------------------------------------------------------------------------------------AFooter--------*/
