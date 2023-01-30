@@ -187,9 +187,10 @@ i {
 
 .profil {
   display: flex;
-  margin: 5px 5px 5px 15px;
+  margin: 4% 4% 4% 4%;
 }
 
+.image p {margin: 4% 4% 4% 4%;}
 .avis p {
   margin: 0px 5px 0px 5px;
 }
@@ -327,7 +328,7 @@ footer h3 {
 }
 .border {
   justify-content: flex-start;
-  display: flex;margin:top;
+  display: flex;margin-top:20px;
 }
 
 /*-------------------------------------------------------------------------------------AFooter--------*/ 
