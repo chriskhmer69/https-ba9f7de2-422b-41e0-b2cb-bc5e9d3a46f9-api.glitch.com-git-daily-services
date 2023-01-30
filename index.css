@@ -78,14 +78,15 @@ ul {
 }
 #hero {
   display: flex;
-  height: 140vh;
-  margin-top: 89px;
+  width:100%;
+  margin-top: 70px;
 }
 #hero .image-hero {
   background-image: url("https://cdn.glitch.global/5575e1a1-f657-4263-85c0-d633ac39a201/7197526.jpg?v=1674660651668") !important;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  width:70%;
 }
 #hero .text-hero {
   color: rgb(50, 50, 50, 1);
@@ -96,7 +97,7 @@ ul {
   margin-top: 20px;
   text-align: center;
   font-size: 1.2em;
-  width: 45%;
+  width: 30%;
 }
 .text-hero a {
   display: block;
@@ -181,6 +182,32 @@ i {
 /*------------------------ THE END CSS SECTION hans-----------------------*/
 
 /*------------------------CSS SECTION Alexandre-----------------------*/
+
+.unPeu {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+
+#chiffre div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+   background-color:#fe735c;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  margin: 0px 30px 0px 30px;
+}
+.article {
+  width: 20%;
+  background-color: var(--color-3);
+  border-radius: 3px;
+  color: var(--color-1);
+  
+}
+
 
 .cardAlex {
   margin-top: 100px;
