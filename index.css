@@ -26,7 +26,7 @@ h6 {
 header {
   display: flex;
   z-index: 10;
-  box-shadow: 0px 3px 5px var(--color-4);
+  box-shadow: 0px 3px 5px rgb(0 ,0 ,0 ,.25);
   position: fixed;
   top: 0px;
   width: 100%;
@@ -57,9 +57,7 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-  color: white;
-  background-color: var(--color-1);
-  box-shadow: 0px 2px 5px rgb(0, 0, 0, 0.5);
+  color: var(--color-1);
 }
 
 ul {
@@ -81,7 +79,7 @@ ul {
   flex-direction: row;
   width: 100%;
   margin-top: 30px;
-  text-align:center;
+  text-align: center;
 }
 #hero .image-hero {
   width: 70%;
@@ -93,10 +91,10 @@ ul {
   font-size: 1.2em;
   width: 30%;
 }
-.list-footer{
+.list-footer {
   list-style: square;
-  display:inline;
-  text-align:left;
+  display: inline;
+  text-align: left;
 }
 
 #content-page {
@@ -179,6 +177,7 @@ i {
 
 #chiffre {
   background-color: #fe735c;
+  width:100%;
 }
 .unPeu {
   display: flex;
@@ -196,7 +195,8 @@ i {
   margin: 0px 30px 0px 30px;
 }
 .article {
-  width: %;
+  width: 30%;
+  height: 20%;
   background-color: var(--color-3);
   border-radius: 3px;
   color: var(--color-1);
@@ -207,90 +207,14 @@ span {
 .paraAlex {
   color: var(--color-1);
   animation: move 5s;
-  -webkit-animation: move 5s;
-  transition-delay: 400ms;
 }
 
-@keyframes move {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
-@-webkit-keyframes move {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
 .paraAlex2 {
   color: var(--color-1);
-  animation: move 7s;
-  -webkit-animation: move 7s;
 }
 
-@keyframes move {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
-@-webkit-keyframes move {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
 .paraAlex3 {
   color: var(--color-1);
-  animation: move 9s;
-  -webkit-animation: move 9s;
-}
-
-@keyframes move {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
-@-webkit-keyframes move {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
 }
 
 .dailyServicePour {
@@ -384,5 +308,8 @@ footer h3 {
   text-align: center;
   display: block;
 }
-.border{ justify-content: flex-start;display: flex;}
+.border {
+  justify-content: flex-start;
+  display: flex;
+}
 /*-------------------------------------------------------------------------------------AFooter--------*/
