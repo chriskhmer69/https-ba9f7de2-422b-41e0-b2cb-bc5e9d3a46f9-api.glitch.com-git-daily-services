@@ -93,6 +93,14 @@ ul {
   font-size: 1.2em;
   width: 30%;
 }
+.list-footer{
+  list-style: square;
+  display:inline;
+  text-align:left;
+}
+.list-footer a{
+  bcakground-color:;
+}
 
 #content-page {
   margin: 0 10% 0 10%;
