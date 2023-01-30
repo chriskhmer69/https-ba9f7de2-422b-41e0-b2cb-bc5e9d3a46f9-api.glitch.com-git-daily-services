@@ -69,7 +69,7 @@ ul {
 .ulNav {
   display: flex;
   justify-content: space-around;
-  margin-left: 524px;
+  margin-left: 453px;
   margin-top: 15px;
 }
 .ulNav li {
@@ -88,7 +88,7 @@ ul {
 }
 #hero .text-hero {
   color: rgb(50, 50, 50, 1);
-  padding: 100px 60px;
+  padding: 100px 30px 0px 60px;
   text-align: center;
   font-size: 1.2em;
   width: 30%;
