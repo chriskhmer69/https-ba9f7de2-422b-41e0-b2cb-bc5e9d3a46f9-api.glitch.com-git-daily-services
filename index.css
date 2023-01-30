@@ -50,6 +50,8 @@ nav {
 .profile {
   display: flex;
   align-items: center;
+  text-decoration: none;
+  
 }
 .profile h1 {
   font-weight: bold;
@@ -206,6 +208,7 @@ i {
 
 /*------------------------CSS SECTION Alexandre-----------------------*/
 
+
 #chiffre {
   background-color: #fe735c;
 }
@@ -275,7 +278,8 @@ i {
 .solidarite {
   width: 100%;
   height: 80%;
-}
+} 
+
 
 /*------------------------ THE END CSS SECTION Alexandre-----------------------*/
 
