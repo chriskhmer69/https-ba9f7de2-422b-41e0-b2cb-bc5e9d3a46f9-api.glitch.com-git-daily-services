@@ -22,11 +22,18 @@ p,
 a {
   font-family: var(--font-1);
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-2);
 }
 
-h2{font-size: 2.5em;}
+h2 {
+  font-size: 2.5em;
+}
 
 /*---------------------------------------------------------------------------------------------Font--------*/
 
@@ -50,8 +57,6 @@ nav {
 .profile {
   display: flex;
   align-items: center;
-  
-  
 }
 .profile h1 {
   font-weight: bold;
@@ -85,14 +90,14 @@ li a:hover {
   text-decoration: none;
   box-shadow: 0px 4px 6px rgb(0, 0, 0, 0.3);
 }
-.stores img{
-background: black;
-border-radius: 7px;
-transition: all 0.2s ease-out;
-height: 46px;
+.stores img {
+  background: black;
+  border-radius: 7px;
+  transition: all 0.2s ease-out;
+  height: 46px;
 }
-.stores img:hover{
-  background:var(--color-1);
+.stores img:hover {
+  background: var(--color-1);
 }
 
 ul {
@@ -195,7 +200,9 @@ i {
   margin: 4% 4% 4% 4%;
 }
 
-.image p {margin: 4% 4% 4% 4%;}
+.image p {
+  margin: 4% 4% 4% 4%;
+}
 .avis p {
   margin: 0px 5px 0px 5px;
 }
@@ -209,16 +216,15 @@ i {
 
 /*------------------------CSS SECTION Alexandre-----------------------*/
 
-
 #chiffre {
   background-color: #fe735c;
 }
 .spanCourgette {
   display: flex;
   justify-content: center;
-  color:white;
+  color: white;
   font-size: 2.5em;
-  margin-bottom:3%;
+  margin-bottom: 3%;
 }
 .chiffre1 {
   margin-top: 10%;
@@ -245,8 +251,8 @@ i {
 .dailyServicePour {
   display: flex;
   justify-content: center;
-  color:white;
-  margin-top:10%;
+  color: white;
+  margin-top: 10%;
 }
 #benefice div {
   width: 100%;
@@ -279,8 +285,7 @@ i {
 .solidarite {
   width: 100%;
   height: 80%;
-} 
-
+}
 
 /*------------------------ THE END CSS SECTION Alexandre-----------------------*/
 
@@ -340,7 +345,12 @@ footer h3 {
 }
 .border {
   justify-content: flex-start;
-  display: flex;margin-top:20px;
+  display: flex;
+  margin-top: 20px;
 }
 
-/*-------------------------------------------------------------------------------------AFooter--------*/ 
+.box {
+  width: 33%;
+}
+
+/*-------------------------------------------------------------------------------------AFooter--------*/

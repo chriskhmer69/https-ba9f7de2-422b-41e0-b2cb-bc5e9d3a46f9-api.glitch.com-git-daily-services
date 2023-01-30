@@ -37,52 +37,60 @@ img {
   display: block;
   margin: auto;
 }
+
+
 header {
   display: flex;
-  border-bottom: 3px solid var(--color-1);
+  z-index: 10;
+  box-shadow: 0px 3px 5px rgb(0, 0, 0, 0.25);
+  position: fixed;
+  top: 0px;
+  width: 100%;
 }
-
 nav {
   display: flex;
+  width: 100%;
+  text-align: center;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--color-3);
-  margin: 5px;
-  margin-top: 15px;
-}
-.photo {
-  width: 100%;
-  height: 500px;
+  background-color: white;
 }
 .profile {
   display: flex;
   align-items: center;
 }
-.profile img {
-  width: 200px;
-  height: 90px;
-}
 .profile h1 {
-  margin-left: -13px;
   font-weight: bold;
+  margin-left: 60px;
   color: rgb(50, 50, 50, 1);
-  margin-top: 10px;
-  font-size: 15px;
+  text-decoration: none;
 }
-
 li a {
-  color: var(--color-3);
+  color: black;
+  background-color: white;
+  padding: 10px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+li a:hover {
+  color: var(--color-1);
+}
+.download {
+  color: white;
   background-color: var(--color-1);
   padding: 10px 25px;
   border-radius: 30px;
   text-decoration: none;
-  box-shadow: 0px 2px 5px rgb(0, 0, 0, 0.5);
 }
-
-li a:hover {
-  color: var(--color-3);
-  box-shadow: inset 0px 2px 5px rgb(0, 0, 0, 0.5);
+.download:hover {
+  color: white;
+  background-color: var(--color-1);
+  opacity: 0.9;
+  padding: 10px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  box-shadow: 0px 4px 6px rgb(0, 0, 0, 0.3);
 }
 
 ul {
