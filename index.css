@@ -263,12 +263,43 @@ i {
   font-size: 4rem;
   color: white;
 }
+/*-------------------------------------*/
+#benefice h2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#benefice {
+display: flex;
+flex-wrap: wrap;
+justify-content:space-around;
+}
+.beneArticle {
+  width: 40%;
+  background-color: var(--color-3);
+  border-radius: 1em;
+  color: var(--color-3);
+  padding: 0.2em;
+  margin:1em;
+  justify-content: center;
+  box-shadow: 0px 4px 6px rgb(0, 0, 0, 0.3);
+}
+.motBene{
+  width: 80%;
+  height: 90%;  
+}
 .spanCourgette2 {
   display: flex;
   justify-content: center;
   color: var(--color-1);
   font-size: 1.2em;
-  margin-bottom: 3%;
+
+}
+.beneArticle span {
+  font-size: 1.5em;
+  margin-top:5%;
+  width:100%;
+  text-align:center;
 }
 
 
