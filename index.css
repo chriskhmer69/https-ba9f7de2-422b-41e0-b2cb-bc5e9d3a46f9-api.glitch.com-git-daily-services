@@ -76,6 +76,7 @@ li a:hover {
 }
 .download {
   color: white;
+  transition: all 0.2s ease-out;
   background-color: var(--color-1);
   padding: 10px 25px;
   border-radius: 30px;
@@ -278,8 +279,8 @@ i {
   
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-width: 40%;
+ justify-content: space-around;
+  width: 10%;
   background-color: var(--color-3);
   border-radius: 10px;
   color: var(--color-3);
@@ -290,26 +291,28 @@ width: 40%;
   justify-content: center;
 }
 .local {
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
 }
 .deplacement {
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
 }
 .entraide {
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
 }
 
 .solidarite {
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
 }
 .solidarity{
 text-align: center;
 
 }
+
+
 /*------------------------ THE END CSS SECTION Alexandre-----------------------*/
 
 /*----------------------------------Avis Utilisateur fait par sebastien--------*/
