@@ -35,6 +35,7 @@ h2 {
   font-size: 2.5em;
 }
 
+section {padding-top:50px;}
 /*---------------------------------------------------------------------------------------------Font--------*/
 
 header {
@@ -260,7 +261,7 @@ i {
 
 .dailyServicePour {
   color: var(--color-1);
-  margin-top: 10%;
+  margin-top: 50px;
   font-size: 2.5em;
   margin-bottom:4%;
   width:100%;
