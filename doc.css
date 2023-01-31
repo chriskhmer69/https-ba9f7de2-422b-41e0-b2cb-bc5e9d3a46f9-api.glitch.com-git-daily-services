@@ -192,3 +192,21 @@ footer {
 .box ul a:hover {
   color: black;
 }
+
+.download {
+  color: white;
+  transition: all 0.2s ease-out;
+  background-color: var(--color-1);
+  padding: 10px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+.download:hover {
+  color: white;
+  background-color: var(--color-1);
+  opacity: 0.9;
+  padding: 10px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  box-shadow: 0px 4px 6px rgb(0, 0, 0, 0.3);
+}
