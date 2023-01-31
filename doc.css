@@ -159,20 +159,17 @@ video {
   justify-content: center;
 }
 
-footer h3 {
-  padding: 10px 40px;
-  color: var(--color-3);
-  background: var(--color-1);
-  text-align: center;
-  display: block;
+.images {
+  width: 60%;
 }
 
+/*-------------------------------------------------------------------------------------Footer--------*/
 footer {
-  padding: 10px 40px;
-  color: var(--color-3);
+  padding: 5px 5px;
+  padding-bottom:50px;
   background-color: var(--color-1);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .border {
   justify-content: flex-start;
@@ -181,22 +178,17 @@ footer {
 }
 
 .box {
-  width: 33%;
-  text-align: center;
-  padding: 10px;
+  justify-content: center;
+  padding:0px 10px;
 }
 .box ul {
   list-style: none;
-  color: var(--color-3);
+  color: white;
   text-decoration: none;
 }
 .box ul a {
-  color: var(--color-3);
+  color: white;
 }
 .box ul a:hover {
-  color: var(--color-4);
-}
-
-.images {
-  width: 60%;
+  color: black;
 }
