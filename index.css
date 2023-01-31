@@ -136,11 +136,6 @@ ul {
   font-size: 1.2em;
   width: 40%;
 }
-.list-footer {
-  list-style: square;
-  display: inline;
-  text-align: left;
-}
 
 .content-page {
   margin: 0 10% 0 10%;
@@ -296,9 +291,10 @@ flex-wrap: wrap;
 
 .beneArticle img {width:75%;}
 
-#benefice p {
+#benefice h2 {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 .local {
   width: 80%;
@@ -391,5 +387,10 @@ footer {
 }
 .box ul a:hover {
   color: black;
+}
+.list-footer {
+  list-style: square;
+  display: inline;
+  text-align: left;
 }
 /*-------------------------------------------------------------------------------------AFooter--------*/
