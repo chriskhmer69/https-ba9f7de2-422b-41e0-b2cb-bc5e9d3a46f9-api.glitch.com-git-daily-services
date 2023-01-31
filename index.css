@@ -33,6 +33,8 @@ h6 {
 
 h2 {
   font-size: 2.5em;
+  margin-bottom:50px;
+  text-align:center;
 }
 
 section {padding-top:50px;}
@@ -348,8 +350,7 @@ text-align: center;
 
 #avisUtilisateurs {
   margin-bottom: 5%;
-  display: flex;
-  flex-wrap: wrap;
+
   margin-top: 5%;
 }
 
@@ -373,7 +374,6 @@ footer {
   display: flex;
   margin-top: 20px;
 }
-
 .box {
   justify-content: center;
   padding:0px 10px;
