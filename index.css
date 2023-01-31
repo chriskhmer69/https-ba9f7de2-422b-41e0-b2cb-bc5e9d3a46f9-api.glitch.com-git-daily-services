@@ -1,4 +1,4 @@
-/* --------------------------------------------------------- Element design */
+ /* --------------------------------------------------------- Element design */
 
 :root {
   --font-1: "Mulish", sans-serif; /* Texte*/
@@ -266,13 +266,13 @@ i {
   display: flex;
   justify-content: center;
   color: var(--color-1);
-  font-size: 12px;
+  font-size: 1.2em;
   margin-bottom: 3%;
 }
 
 .dailyServicePour {
   color: var(--color-1);
-  margin-top: 50px;
+  margin-top: 5em;
   font-size: 2.5em;
   margin-bottom:4%;
   width:100%;
@@ -286,12 +286,12 @@ flex-wrap: wrap;
 .beneArticle {
   width: 40%;
   background-color: var(--color-3);
-  border-radius: 10px;
+  border-radius: 1em;
   color: var(--color-3);
-  padding: 4%;
+  padding: 5%;
   justify-content: center;
-  display: flex;
-  flex-wrap:wrap;
+
+  box-shadow: 0px 4px 6px rgb(0, 0, 0, 0.3);
 }
 
 .beneArticle span {
