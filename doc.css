@@ -175,6 +175,8 @@ video {
 }
 
 /*-------------------------------------------------------------------------------------Footer--------*/
+
+
 footer {
   padding: 5px 5px;
   padding-bottom:50px;
@@ -202,6 +204,9 @@ footer {
 }
 .box ul a:hover {
   color: black;
+}
+.box p{
+  font-size:1em;
 }
 
 .stores img {
