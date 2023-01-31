@@ -369,10 +369,9 @@ text-align: center;
 footer {
   padding: 5px 5px;
   padding-bottom:50px;
-  color: var(--color-3);
   background-color: var(--color-1);
   display: flex;
-  justify-content: right;
+  justify-content: space-evenly;
 }
 .border {
   justify-content: flex-start;
