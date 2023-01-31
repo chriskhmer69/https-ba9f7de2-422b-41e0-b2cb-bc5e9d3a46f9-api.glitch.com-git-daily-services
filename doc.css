@@ -99,7 +99,7 @@ ul {
 .ulNav {
   display: flex;
   justify-content: space-around;
-  margin-left: 461px;
+  margin-left: 514px;
   margin-top: 15px;
 }
 .ulNav li {
@@ -159,8 +159,6 @@ video {
   justify-content: center;
 }
 
-
-
 footer h3 {
   padding: 10px 40px;
   color: var(--color-3);
@@ -168,8 +166,6 @@ footer h3 {
   text-align: center;
   display: block;
 }
-
-
 
 footer {
   padding: 10px 40px;
@@ -201,6 +197,6 @@ footer {
   color: var(--color-4);
 }
 
-.images{
-  width:60%;
+.images {
+  width: 60%;
 }
