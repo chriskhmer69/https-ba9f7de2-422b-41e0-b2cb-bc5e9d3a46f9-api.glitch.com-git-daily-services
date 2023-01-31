@@ -116,10 +116,10 @@ ul {
   display: flex;
   justify-content: space-around;
   margin-left: 316px;
+  float:right;
   margin-top: 15px;
 }
 .ulNav li {
-  float: right;
   margin: 10px;
 }
 #hero {
