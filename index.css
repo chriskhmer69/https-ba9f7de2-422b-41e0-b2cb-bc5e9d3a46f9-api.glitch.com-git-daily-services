@@ -279,25 +279,19 @@ justify-content:space-around;
   background-color: var(--color-3);
   border-radius: 1em;
   color: var(--color-3);
-  padding: 0.2em;
-  margin:1em;
+  
   justify-content: center;
   box-shadow: 0px 4px 6px rgb(0, 0, 0, 0.3);
   display: flex;
 flex-wrap: wrap;
+  padding-bottom: 10%;
 }
 
 .motBene{
   width: 80%;
   height: 90%;  
 }
-.spanCourgette2 {
-  width:100%;
-text-align:center;
-  color: var(--color-1);
-  font-size: 1.2em;
 
-}
 .beneArticle span {
   font-size: 1.5em;
  
@@ -305,6 +299,12 @@ text-align:center;
   text-align:center;
 }
 
+.beneArticleContent{
+  color:black;
+padding: 0 10% 0 10%;
+text-align: center;}
+
+.localArticle, .covoitArticle {margin-bottom: 7%;}
 
 /*------------------------ THE END CSS SECTION Alexandre-----------------------*/
 
