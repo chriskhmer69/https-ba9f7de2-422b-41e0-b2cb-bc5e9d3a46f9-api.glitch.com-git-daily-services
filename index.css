@@ -1,4 +1,4 @@
- /* --------------------------------------------------------- Element design */
+/* --------------------------------------------------------- Element design */
 
 :root {
   --font-1: "Mulish", sans-serif; /* Texte*/
@@ -33,11 +33,13 @@ h6 {
 
 h2 {
   font-size: 2.5em;
-  margin-bottom:50px;
-  text-align:center;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
-section {padding-top:50px;}
+section {
+  padding-top: 50px;
+}
 /*---------------------------------------------------------------------------------------------Font--------*/
 
 header {
@@ -56,6 +58,9 @@ nav {
   justify-content: space-between;
   align-items: center;
   background-color: white;
+}
+.nav-right {
+  float: right;
 }
 .profile {
   display: flex;
@@ -112,16 +117,7 @@ ul {
   display: flex;
   list-style: none;
 }
-.ulNav {
-  display: flex;
-  justify-content: space-around;
-  margin-left: 316px;
-  float:right;
-  margin-top: 15px;
-}
-.ulNav li {
-  margin: 10px;
-}
+
 #hero {
   display: flex;
   flex-direction: row;
@@ -131,7 +127,7 @@ ul {
 }
 #hero .image-hero {
   width: 70%;
-  z-index:-10;
+  z-index: -10;
 }
 #hero .text-hero {
   color: rgb(50, 50, 50, 1);
@@ -211,7 +207,7 @@ i {
   margin: 0px 5px 0px 5px;
 }
 .avis i {
-  margin-top:3px;
+  margin-top: 3px;
 }
 
 .image {
@@ -250,14 +246,13 @@ i {
   display: flex;
   text-align: center;
 }
-.ino{
-  display:flex;
-  justify-content:center;
-  font-size:2em;
-  color:var(--color-3);
-  opacity:0.7;
-  margin-top:13%;
-
+.ino {
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+  color: var(--color-3);
+  opacity: 0.7;
+  margin-top: 13%;
 }
 .spanNumber {
   font-size: 4rem;
@@ -270,41 +265,45 @@ i {
   width: 100%;
 }
 #benefice {
-display: flex;
-flex-wrap: wrap;
-justify-content:space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 .beneArticle {
   width: 40%;
   background-color: var(--color-3);
   border-radius: 1em;
   color: var(--color-3);
-  
+
   justify-content: center;
   box-shadow: 0px 4px 6px rgb(0, 0, 0, 0.3);
   display: flex;
-flex-wrap: wrap;
+  flex-wrap: wrap;
   padding-bottom: 10%;
 }
 
-.motBene{
+.motBene {
   width: 80%;
-  height: 90%;  
+  height: 90%;
 }
 
 .beneArticle span {
   font-size: 1.5em;
- 
-  width:100%;
-  text-align:center;
+
+  width: 100%;
+  text-align: center;
 }
 
-.beneArticleContent{
-  color:black;
-padding: 0 10% 0 10%;
-text-align: center;}
+.beneArticleContent {
+  color: black;
+  padding: 0 10% 0 10%;
+  text-align: center;
+}
 
-.localArticle, .covoitArticle {margin-bottom: 7%;}
+.localArticle,
+.covoitArticle {
+  margin-bottom: 7%;
+}
 
 /*------------------------ THE END CSS SECTION Alexandre-----------------------*/
 
@@ -348,7 +347,7 @@ text-align: center;}
 /*-------------------------------------------------------------------------------------Footer--------*/
 footer {
   padding: 5px 5px;
-  padding-bottom:50px;
+  padding-bottom: 50px;
   background-color: var(--color-1);
   display: flex;
   justify-content: space-evenly;
@@ -360,7 +359,7 @@ footer {
 }
 .box {
   justify-content: center;
-  padding:0px 10px;
+  padding: 0px 10px;
 }
 .box ul {
   list-style: none;
