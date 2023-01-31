@@ -290,13 +290,14 @@ flex-wrap: wrap;
 }
 
 .beneArticle span {
-  font-size:2em;
+  font-size: 1.5em;
   margin-top:5%;
   width:100%;
   text-align:center;
 }
 
-.beneArticle img {width:100%;}
+.beneArticle img {width:75%;}
+
 #benefice p {
   display: flex;
   justify-content: center;
