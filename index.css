@@ -115,7 +115,7 @@ ul {
 .ulNav {
   display: flex;
   justify-content: space-around;
-  margin-left: 453px;
+  margin-left: 316px;
   margin-top: 15px;
 }
 .ulNav li {
@@ -284,21 +284,24 @@ justify-content:space-around;
   margin:1em;
   justify-content: center;
   box-shadow: 0px 4px 6px rgb(0, 0, 0, 0.3);
+  display: flex;
+flex-wrap: wrap;
 }
+
 .motBene{
   width: 80%;
   height: 90%;  
 }
 .spanCourgette2 {
-  display: flex;
-  justify-content: center;
+  width:100%;
+text-align:center;
   color: var(--color-1);
   font-size: 1.2em;
 
 }
 .beneArticle span {
   font-size: 1.5em;
-  margin-top:5%;
+ 
   width:100%;
   text-align:center;
 }

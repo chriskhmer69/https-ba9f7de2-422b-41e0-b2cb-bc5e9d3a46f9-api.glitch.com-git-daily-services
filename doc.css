@@ -141,11 +141,10 @@ p {
 }
 .container {
   display: flex;
-  justify-content: center;
   margin: 10px auto;
 }
 .container img {
-  height: 200px;
+  height: 300px;
   border-radius: 20px;
 }
 
