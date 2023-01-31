@@ -59,9 +59,8 @@ nav {
   align-items: center;
   background-color: white;
 }
-.nav-right {
-  float: right;
-}
+.ulNav{margin-left: 363px;}
+
 .profile {
   display: flex;
   align-items: center;

@@ -242,9 +242,15 @@ footer {
   width:18%;
 }
 .team div img{
-  width:50%;
+  height:170px;
 }
 .team div p{
   text-align:center;
   margin:0px;
+}
+
+/*----------------------------------------Formulaire--------------------------------------*/
+form{
+  width:80%;
+  background:;
 }
