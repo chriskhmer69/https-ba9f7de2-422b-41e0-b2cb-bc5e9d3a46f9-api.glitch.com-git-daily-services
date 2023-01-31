@@ -267,7 +267,7 @@ i {
   font-size: 2.5em;
   margin-bottom:4%;
   width:100%;
-  text-align
+  text-align:center;
 }
 
 #benefice {
@@ -277,23 +277,26 @@ flex-wrap: wrap;
 
 
 
-#benefice div {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
+
 .beneArticle {
-  
-  display: flex;
-  flex-wrap: wrap;
- justify-content: space-around;
-  width: 10%;
+  width: 40%;
   background-color: var(--color-3);
   border-radius: 10px;
   color: var(--color-3);
   padding: 4%;
+  justify-content: center;
+  display: flex;
+  flex-wrap:wrap;
 }
+
+.beneArticle span {
+  font-size:2em;
+  margin-top:5%;
+  width:100%;
+  text-align:center;
+}
+
+.beneArticle img {width:100%;}
 #benefice p {
   display: flex;
   justify-content: center;
@@ -377,8 +380,8 @@ footer {
 
 .box {
   width: 33%;
-  text-align: center;
-  padding: 10px;
+  justify-content: center;
+  padding: 20px;
 }
 .box ul {
   list-style: none;
