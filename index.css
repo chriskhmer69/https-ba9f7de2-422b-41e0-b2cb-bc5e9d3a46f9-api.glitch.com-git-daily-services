@@ -367,11 +367,11 @@ text-align: center;
 
 /*-------------------------------------------------------------------------------------Footer--------*/
 footer {
-  
+  padding: 5px 5px;
   color: var(--color-3);
   background-color: var(--color-1);
   display: flex;
-  justify-content: center;
+  justify-content: right;
 }
 .border {
   justify-content: flex-start;
@@ -380,7 +380,6 @@ footer {
 }
 
 .box {
-  width: 33%;
   justify-content: center;
   padding: 20px;
 }
