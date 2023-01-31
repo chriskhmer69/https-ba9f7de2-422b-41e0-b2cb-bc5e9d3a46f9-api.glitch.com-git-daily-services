@@ -262,13 +262,21 @@ i {
 }
 
 .dailyServicePour {
-  display: flex;
-  justify-content: center;
   color: var(--color-1);
   margin-top: 10%;
   font-size: 2.5em;
   margin-bottom:4%;
+  width:100%;
+  text-align
 }
+
+#benefice {
+display: flex;
+flex-wrap: wrap;
+}
+
+
+
 #benefice div {
   width: 100%;
   display: flex;
