@@ -111,7 +111,7 @@ ul {
 .ulNav {
   display: flex;
   justify-content: space-around;
-  margin-left: 514px;
+  margin-left: 400px;
   margin-top: 15px;
 }
 .ulNav li {
