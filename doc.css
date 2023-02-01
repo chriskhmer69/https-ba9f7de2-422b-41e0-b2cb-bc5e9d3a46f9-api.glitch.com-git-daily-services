@@ -111,7 +111,7 @@ ul {
 .ulNav {
   display: flex;
   justify-content: space-around;
-  margin-left: 400px;
+  margin-left: 350px;
   margin-top: 15px;
 }
 .ulNav li {
@@ -141,14 +141,13 @@ p {
 .container {
   display: flex;
   justify-content: center;
-  margin: 10px auto;
+  
 }
 .container img {
   height: 300px;
   border-radius: 20px;
   margin-top:5%;
   margin-bottom:5%;
-  
 }
 
 iframe {
