@@ -119,6 +119,10 @@ ul {
   margin: 10px;
 }
 
+.prob span{
+  font-size: 1.2em;
+  text-align:justify;}
+
 .photo-testeur {
   border: 5px;
   height: 150px;
@@ -126,7 +130,7 @@ ul {
 }
 
 .photo{
-  width: 80%;
+  height:10%;
   object-fit:cover;
   
 }
